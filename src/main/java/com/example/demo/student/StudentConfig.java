@@ -15,14 +15,14 @@ public class StudentConfig {
             StudentRepository repository) {
         return args -> {
             Student nguyen_thi_thai_bao = new Student(
-                    1L,
-                    "Nguyen Thi Thai Bao",
+                    3L,
+                    "Tieu Bao",
                     LocalDate.of(1998, 11, 7)
             );
 
             Student nguyen_thai_bao = new Student(
-                    2L,
-                    "Nguyen Thai Bao",
+                    4L,
+                    "Bao Bao",
                     LocalDate.of(1999, 11, 7)
             );
 
